@@ -1,0 +1,70 @@
+.bar {
+    width: 96%;
+    height: 80px;
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #302d2d;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.5);
+    position: sticky;
+    border-radius: 20px;
+    top: 0;
+    z-index: 999;
+  }
+  .bar-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+  }
+  .bar-logo {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-left: 5%;
+}
+.bar-options{
+    display: flex;
+    align-items: center;
+    padding-right: 8%;
+  }
+.bar-option{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+    color: white;
+    text-decoration: none;
+}
+.main .des{
+  width: 70%;
+  padding: 70px;
+  padding-top: 7%;
+}
+.main h1{
+  color: white;
+  font-size: 50px;
+  padding-bottom: 2%;
+}
+.main p{
+  color: white;
+  font-size: 20px;
+}
+@media (max-width: 750px){
+  .main .des{
+    width: 100%;
+    padding: 40px;
+    padding-top: 10%;
+  }
+  .main h1{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 2%;
+  }
+  .main p{
+    color: white;
+    font-size: 17px;
+  }
+}

@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .blue-palette {
+	background-image: linear-gradient(to bottom, #011a34, #1e4161);
+  }
+  
+  .maroon-palette {
+	background-image: linear-gradient(to bottom, #2e1114, #501b1d);
+  }
+  
+  .green-palette {
+	background-image: linear-gradient(to bottom, #0b2c0b, #314731);
+  }
+  
+  .black-palette {
+	background-image: linear-gradient(to bottom, #212020, #3e3d3d);
+  }
+  
+  body {
+	background-image: url('../Image/bg.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	animation: gradient 100s infinite alternate;
+  }
+  
+  @keyframes gradient {
+	0% {
+	  background-position: 0% 50%;
+	}
+	50% {
+	  background-position: 100% 50%;
+	}
+	100% {
+	  background-position: 0% 50%;
+	}
+  }
+  
+  /* Media queries for responsive design */
+  @media only screen and (max-width: 600px) {
+	body {
+	  background-size: auto; 
+	}
+  }
+  
